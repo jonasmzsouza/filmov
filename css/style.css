@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Heebo&family=Lato&family=PT+Sans&family=Work+Sans:wght@100;400&family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../image/fundo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 100%;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #c4004f;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  color: #ad00ff;
+}
+
+p {
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #c4004f;
+}
+
+.conteudo-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------------- TOPO -------------- */
+.topo {
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 100px;;
+  min-width: 320px;
+}
+
+.topo-esquerdo{
+  width: 15%;
+  height: 100px;
+}
+
+.topo-logo{
+  width: 50%;
+  margin-left: 30%;
+  min-width: 60px;
+}
+
+.topo-logo img {
+  width: 100%;
+}
+
+.topo-centro{
+  width: 70%;
+  height: 100px;
+  padding: 10px 0;
+}
+
+.topo-pesquisa{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo-pesquisa{
+  width: 90%;
+  background-color: #fff;
+}
+
+fieldset {
+  border: none;
+}
+
+.bar-pesquisa{
+  width: 90%;
+}
+
+.bar-pesquisa input[type="text"] {
+  font-family: 'Lato', sans-serif;
+  font-size: 1vmax;
+  color: #585858;
+  width: 100%;
+  height: 2vmax;
+  border: 1px solid #fff;
+  text-align: left;
+}
+
+.bar-pesquisa input:focus {
+  outline: 0;
+}
+
+.btn-pesquisar {
+  width: 5%;
+  background-color: #fff;
+}
+
+.btn-pesquisar button{
+  color: #585858;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vmax;
+  background: rgba(#ffffff, 0);
+  color: #fff;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+}
+
+.topo-menu {
+  text-align: center;
+  color: #fff;
+  margin: 0 20px;
+}
+
+.topo-menu li {
+  text-align: center;
+  font-size: 1vmax;
+  font-family: 'Heebo', sans-serif;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.topo-menu a {
+  margin: 0 2px;
+}
+
+/* -------------- LOGIN -------------- */
+.topo-direito{
+  width: 15%;
+  height: 100px;
+}
+
+.sublogin {
+  width: 100%;
+  height: 100px;
+}
+
+.subloginbtn{
+  width: 100%;
+  height: 100px;
+}
+
+.sublogin .subloginbtn {
+  font-size: 1vmax;
+  border: none;
+  font-family: inherit;
+  padding: 10px;
+  background-color: #c4004f;
+}
+
+.sublogin-conteudo {
+  display: none;
+  position: absolute;
+  width: 15%;
+  background-color: #c4004f;
+  font-size: 1vmax;
+  text-align: center;
+  z-index: 1;
+}
+
+.sublogin-conteudo button {
+  font-size: 1vmax;
+  background: #fff;
+  color: #c4004f;
+  cursor: pointer;
+  outline: 0;
+  margin: 0.5vmax;
+  height: 2vmax;
+}
+
+.sublogin:hover .sublogin-conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -------------- CONTEUDO PRINCIPAL -------------- */
+.conteudo-principal {
+  width: 76%;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-filter: none;
+  z-index: 1;
+}
+
+.conteudo-principal img:hover {
+  transition: .3s;
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+.primeiro-h1 {
+  padding-top: 130px;
+  padding-bottom: 3%;
+  font-size: 1vmax;
+  text-align: center;
+}
+
+.elementos {
+  width: auto;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.30);
+  margin-bottom: 4%;
+  padding: 10px 0;
+}
+
+.elementos img {
+  width: 100%;
+}
+
+/* -------------- CONTEUDO INDEX -------------- */
+.dados-empresa {
+  height: auto;
+  margin-bottom: 4%;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.30);
+  border-top: 2px solid #c4004f;
+  border-bottom: 2px solid #c4004f;
+  font-size: 1vmax;
+}
+
+.caixa-vantagens div {
+  min-width: 40%;
+  height: auto;
+  margin: 2%;
+  border: 1px solid #4b4b4b;
+  text-align: left;
+}
+
+.dados-empresa h1{
+  margin: 2%;
+}
+
+.dados-empresa h2{
+  margin: 1%;
+}
+
+.dados-empresa p {
+  margin: 2%;
+}
+
+/* -------------- BANNERS -------------- */
+.banner {
+  width: 45%;
+  min-width: 310px;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+
+/* -------------- CONTEUDO SERIES / FILMES -------------- */
+.capa {
+  width: 30%;
+  min-width: 310px;
+  height: auto;
+  margin: 20px;
+}
+
+.capa img {
+  width: 100%;
+}
+
+.segundo-h1{
+  margin-bottom: 4%;
+  font-size: 1vmax;
+}
+
+/* -------------- PAGINA INDIVIDUAL / CATEGORIAS -------------- */
+.poster-play {
+  width: 15%;
+  min-width: 105px;
+  height: auto;
+  margin: 2%;
+  text-align: center;
+}
+
+.poster-play h2{
+  margin: 0;
+  padding-bottom: 1%;
+  font-size: 1vmax;
+  text-align: left;
+}
+
+#btn-assistir {
+  width: 100%;
+  height: 2.5vmax;
+  font-size: 1vmax;
+  background-color: #c4004f;
+  color: #fff;
+}
+
+#btn-assistir span {
+  padding-right: 5%;
+  font-size: 1vmax;
+}
+
+.info-play {
+  width: 75%;
+  margin: 2% 4%;
+  margin-left: 2%;
+}
+
+.info-play-ano {
+  padding-top: 1%;
+  font-size: 0.8vmax;
+  color: #707070;
+}
+
+.info-play h2 {
+  margin: 0 0.5%;
+  padding: 0;
+  font-size: 1.5vmax;
+}
+
+.info-play p {
+  padding-bottom: 1%;
+  margin: 0.5%;
+  font-size: 1vmax;
+}
+
+.info-play em {
+  font-family: 'Cabin', sans-serif;
+  font-style: normal;
+  color: #707070;
+}
+
+.info-play a {
+  font-weight: 0;
+}
+
+.fotos {
+  margin: 2%;
+}
+
+.video {
+  width: 40%;
+  min-width: 310px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.embed-vid {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.embed-vid iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.categorias h1 {
+  font-size: 1.5vmax;
+  text-align: left;
+  margin-bottom: 1%;
+  padding: 0;
+}
+
+/* -------------- CONTATO -------------- */
+.form-mapa{
+  margin: 2%;
+  width: 100%;
+  min-width: 310px;
+}
+
+.formulario{
+  width: 40%;
+  margin: 5%;
+}
+
+@media (max-width: 1082px) {
+  .formulario{
+    width: 310px;
+  }
+}
+
+.form-contato{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.icone-contato {
+  width: 10%;
+  height: 3vmax;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+  font-size: 1.5vmax;
+  color: #fff;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.dados-user{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dados-user fieldset{
+  width: 90%;
+}
+
+.form-contato div,
+.form-contato fieldset{
+ margin-top: 1%;
+}
+
+.dados-msg fieldset{
+  width: 100%;
+}
+
+.form-contato input,
+.form-contato textarea,
+.form-contato select {
+  font-family: 'Lato', sans-serif;
+  font-size: 1vmax;
+  width: 100%;
+  height: 3vmax;
+  color: #585858;
+  background: #fff;
+  padding: 1% 1%;
+  border: 1px solid #fff;
+  max-height: 60px;
+}
+
+.form-contato textarea {
+  width: 100%;
+  height: 8vmax;
+  max-height: 200px;
+  resize: none;
+  padding: 1% 2%;
+}
+
+.form-contato select,
+.form-contato button {
+  width: 100%;
+  height: 3vmax;
+  max-width: 620px;
+  max-height: 60px;
+}
+
+.form-contato button {
+  background: #c4004f;
+  color: #fff;
+}
+
+.form-contato input:focus,
+.form-contato select:focus,
+.form-contato textarea:focus {
+  outline-color: #c4004f;
+}
+
+.rede-social {
+  width: 100%;
+  margin: 2%;
+  font-size: 2vmax;
+  text-align: center;
+}
+
+.rede-social div{
+  margin: 1%;
+}
+
+.mapa {
+  width: 40%;
+  min-width: 310px;
+  margin: 5%;
+}
+
+.embed-mapa {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+}
+
+.embed-mapa iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* -------------- RODAPE -------------- */
+footer {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.85);
+  font-size: 0.8vmax;
+  text-align: center;
+}
+
+footer div{
+  margin-top: 20px;
+}
+
+.site-map{
+  padding-top: 20px;
+}
+
+.site-map-conteudo {
+  width: 10%;
+  min-width: 320px;
+  margin: 0 0;
+  padding: 0;
+}
+
+.site-map-conteudo ul li{
+  padding-top: 10px;
+}
+
+.site-map-conteudo a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer img {
+  width: 80px;
+}
+
+footer p {
+  font-size: 0.8vmax;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
