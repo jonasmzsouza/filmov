@@ -33,7 +33,8 @@ Ferramentas que foram usadas no desenvolvimento do projeto:
 #### [](https://github.com/jonasmzsouza/filmov#utilit%C3%A1rios)**Utilitários**
 
 -   Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
--   Markdown: **[StackEdit](https://stackedit.io/)**,  **[Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
+-   Markdown: **[Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
+-   Escudos: **[Shields](https://shields.io/)**
 -   Logotipo: **[Fotor](https://www.fotor.com/)**
 -   Imagens: **[Pexels](https://www.pexels.com/)**
 -   Vídeos: **[Pexels - Youtube](https://www.youtube.com/channel/UC7bU8qGV5Zh6PJrUaFQNoxg)**
@@ -48,7 +49,7 @@ Ferramentas que foram usadas no desenvolvimento do projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/jonasmzsouza/jonasmzsouza.github.io">
+      <a href="https://jonasmzsouza.github.io/">
          <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61324433?v=4" width="100px;" alt=""/>
          <br />
          <sub><b>Jonas Souza</b></sub>
